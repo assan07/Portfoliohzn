@@ -9,7 +9,6 @@ body {
   height: 100vh;
 }
 
-
 section {
   background-image: linear-gradient(
     to right,
@@ -24,15 +23,23 @@ section {
   height: auto;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .navbar-brand {
   color: #5b26ed;
   font-size: 24px;
 }
+
 .nav-link {
   color: #5b26ed;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
+
 .nav-link:hover {
+  color: #774bf1;
+  transform: scale(1.1);
+}
+
+.navbar-brand:hover {
   color: #5b26ed;
 }
 
@@ -46,25 +53,31 @@ section {
   -ms-user-select: none;
   user-select: none;
 }
+
 .hamRotate.active {
   transform: rotate(45deg);
 }
+
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke: #000;
+  stroke: #5b26ed;
   stroke-width: 5.5;
   stroke-linecap: round;
 }
+
 .ham4 .top {
   stroke-dasharray: 40 121;
 }
+
 .ham4 .bottom {
   stroke-dasharray: 40 121;
 }
+
 .ham4.active .top {
   stroke-dashoffset: -68px;
 }
+
 .ham4.active .bottom {
   stroke-dashoffset: -68px;
 }
@@ -83,10 +96,12 @@ section {
   color: #5b26ed;
   text-align: center;
 }
+
 .header .title-header {
   font-size: 50px;
   font-weight: bold;
 }
+
 .header .header-subtitel {
   font-size: 24px;
   margin: 10px 0;
@@ -102,11 +117,16 @@ section {
   padding: 20px;
 }
 
+.img-shadow {
+  filter: drop-shadow(-5px -5px 3px #fcd203ac);
+}
+
 .about-img {
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
 }
+
 .about-caption {
   max-width: 600px;
 }
@@ -117,9 +137,11 @@ section {
   padding: 20px;
   transition: transform 0.3s;
 }
+
 .service-card:hover {
   transform: translateY(-10px);
 }
+
 .service-card img {
   width: 50px;
   margin-bottom: 15px;
@@ -130,7 +152,8 @@ section {
   display: flex;
   justify-content: center;
 }
-.img-card{
+
+.img-card {
   background-color: none;
 }
 
@@ -141,13 +164,13 @@ section {
   transition: transform 0.3s ease;
 }
 
-.img-card > p{
+.img-card > p {
   display: none;
 }
+
 .img-card img:hover {
   transform: scale(1.05);
 }
-
 
 /* contenct-footer */
 footer {
@@ -156,8 +179,6 @@ footer {
   text-align: center;
   color: #5b26ed#fff;
 }
-
-
 
 .medsos-icon li {
   list-style: none;
