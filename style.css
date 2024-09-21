@@ -99,8 +99,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
-  margin-left: 10vh;
+  padding: 20px;
 }
 
 .about-img {
@@ -131,6 +130,9 @@ section {
   display: flex;
   justify-content: center;
 }
+.img-card{
+  background-color: none;
+}
 
 .img-card img {
   width: 100%;
@@ -138,9 +140,14 @@ section {
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+
+.img-card > p{
+  display: none;
+}
 .img-card img:hover {
   transform: scale(1.05);
 }
+
 
 /* contenct-footer */
 footer {
