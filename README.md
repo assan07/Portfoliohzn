@@ -1,3 +1,0 @@
-# tugas-FGD
-# Portfoliohzn
-# portfoliohzn
